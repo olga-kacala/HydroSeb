@@ -8,7 +8,7 @@ export function Home() {
           className={classes.homePic}
           title="HydroSeb cars"
           alt="HydroSeb cars"
-          src={"../../IMG/czyszczenie.jpg"}
+          src={"../../IMG/Cars.jpg"}
         />
 
         <div className={classes.homeText}>

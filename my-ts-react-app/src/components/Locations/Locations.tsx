@@ -3,7 +3,7 @@ import classes from "./Locations.module.css";
 export function Locations() {
   return (
     <div>
-<div className={classes.homeContainer}>
+      <div className={classes.homeContainer}>
         <img
           className={classes.homePic}
           title="map"
@@ -24,7 +24,6 @@ export function Locations() {
           </div>
         </div>
       </div>
-
 
       <div className={classes.textContainer}>
         Wszystkie zlecenia wykonujemy w tym samym dniu, nawet te których miejsce
