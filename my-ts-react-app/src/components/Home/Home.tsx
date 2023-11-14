@@ -8,13 +8,14 @@ export function Home() {
           className={classes.homePic}
           title="HydroSeb cars"
           alt="HydroSeb cars"
-          src={"../../IMG/Cars.jpg"}
+          src={"../../IMG/czyszczenie.jpg"}
         />
 
         <div className={classes.homeText}>
           <div className={classes.bodyTitle}>
             POGOTOWIE KANALIZACYJNE 24H/7DNI
           </div>
+          <div className={classes.bodyTitle}>tel. 502 220 475</div>
           <div className={classes.smallbodyTitle}>
             CZĘSTOCHOWA I OKOLICE DO 60KM - DOJAZD GRATIS
           </div>
@@ -23,7 +24,6 @@ export function Home() {
           </div>
         </div>
       </div>
-
       <div className={classes.mainFeedContainer}>
         <div className={classes.textContainer}>
           Udrażniamy rury kanalizacyjne wewnątrz budynków, czyścimy rurociągi
@@ -48,21 +48,24 @@ export function Home() {
         </div>
 
         <div className={classes.textContainer}>
-      Wykonujemy następujące prace:
-czyszczenie kanalizacji metodą ciśnieniową - posiadamy tzw. duże WUKO oba dwufunkcyjne, "małe WUKO". Służą one do czyszczenia kanalizacji m.in.: przepompowni, główne rurociągi, przepusty pod drogą, wpusty uliczne, do czyszczenia mniejszych średnic rur na zewnątrz, itp.
-udrażnianie wszystkich instalacji kanalizacyjnych: piony, szamba, poziomy, studzienki, zlewy, umywalki, wc, itp. metodą ciśieniową lub mechaniczną
-monitoring kanalizacji zewnętrznych, wewnętrznych, dla różnych średnic rur wewnątrz budynków i na zewnątrz
-awarie kanalizacyjne, naprawa kanalizacji, lokalizacja studni
-Dojazd GRATIS! Wycena usługi może być ustalona już podczas rozmowy telefonicznej. Jeżeli instalacja nie jest uszkodzona, a nie uda nam się wykonać usługi nie pobieramy żadnych opłat.
-      </div>
-
-
-      <div className={classes.ContactContainer}>
-      Zadzwoń po hydraulika. Tel. alarmowy 502-220-475
+          Wykonujemy następujące prace: czyszczenie kanalizacji metodą
+          ciśnieniową - posiadamy tzw. duże WUKO oba dwufunkcyjne, "małe WUKO".
+          Służą one do czyszczenia kanalizacji m.in.: przepompowni, główne
+          rurociągi, przepusty pod drogą, wpusty uliczne, do czyszczenia
+          mniejszych średnic rur na zewnątrz, itp. udrażnianie wszystkich
+          instalacji kanalizacyjnych: piony, szamba, poziomy, studzienki, zlewy,
+          umywalki, wc, itp. metodą ciśieniową lub mechaniczną monitoring
+          kanalizacji zewnętrznych, wewnętrznych, dla różnych średnic rur
+          wewnątrz budynków i na zewnątrz awarie kanalizacyjne, naprawa
+          kanalizacji, lokalizacja studni Dojazd GRATIS! Wycena usługi może być
+          ustalona już podczas rozmowy telefonicznej. Jeżeli instalacja nie jest
+          uszkodzona, a nie uda nam się wykonać usługi nie pobieramy żadnych
+          opłat.
         </div>
-      
 
-
+        <div className={classes.ContactContainer}>
+          Zadzwoń po hydraulika. Tel. alarmowy 502-220-475
+        </div>
       </div>
     </div>
   );

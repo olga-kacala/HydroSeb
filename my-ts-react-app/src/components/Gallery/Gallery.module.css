@@ -1,0 +1,10 @@
+.gallery {
+display: flex;
+flex-direction: column;
+width: 70vw;
+justify-content: center;
+  }
+  
+  img {
+    display: flex;
+  }

@@ -1,45 +1,47 @@
 .bodyTitle {
-font-size: 20px;
-color: rgb(0,8,77);
-text-align:center;
-font-weight: bold;
+  font-size: 20px;
+  color: rgb(0, 8, 77);
+  text-align: center;
+  font-weight: bold;
 }
 
 .smallbodyTitle {
-text-align: center;
-color: #ff9900;
-font-weight: bold
+  text-align: center;
+  color: #ff9900;
+  font-weight: bold;
 }
 
 .homePic {
-    width: 40vw;
+  width: 35vw;
+  height: 27vh;
 }
 
 .homeContainer {
-    display: flex;
+  display: flex;
 }
 
 .homeText {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-    width: 60vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 60vw;
 }
 
 .mainFeedContainer {
-    text-align: center;
+  text-align: center;
 }
 
 .textContainer {
-    background-color: lightgray;
-    padding: 160px;
-    font-size: larger;
+  background-color: rgb(238, 237, 237);
+  padding: 160px;
+  font-size: larger;
 }
 
 .ContactContainer {
-    background-color: #ff9900;;
-    padding:60px;
+    background-color: #ff9900;
+    padding: 60px;
     font-weight: bold;
     font-size: larger;
-}
+    text-align: center;
+  }
