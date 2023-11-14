@@ -1,0 +1,35 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #333;
+    text-align: center;
+    height: auto;
+    padding: 10px;
+  }
+
+.link {
+  color:rgb(236,128,37);
+    text-decoration: none;
+  }
+  
+  nav {
+    font-weight: 700;
+  }
+  
+  nav > * {
+    padding: 5px;
+  }
+
+  .HSlogo {
+    background-color: white;
+    border-radius: 50%;
+  }
+
+  a {
+    display: flex;
+    flex-direction: column;
+    color:white;
+    text-decoration: none;
+  }
