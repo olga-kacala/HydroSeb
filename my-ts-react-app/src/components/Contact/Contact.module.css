@@ -45,3 +45,30 @@
   font-size: larger;
   text-align: center;
 }
+
+@keyframes fallDown {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.marker {
+  position: absolute;
+  width: 160px;
+  height: 160px;
+  opacity: 0.5;
+  border-radius: 50%;
+  animation: fallDown 0.9s ease-in-out; 
+}
+.marker1 { background-color: orange }
+.marker2 {  background-color: rgb(210, 184, 138) }
+.marker3 {  background-color: rgb(112, 77, 11) }
+.marker4 {  background-color: rgb(244, 184, 72) }
+
+.marker1 { top: 70%; left: 35%; }
+.marker2 { top: 75%; left: 40%; }
+.marker3 { top: 80%; left: 55%; }
+.marker4 { top: 65%; left: 60%; }
